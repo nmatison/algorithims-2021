@@ -14,9 +14,6 @@ from algorithims.other.recursion.advanced.exponentiation import exponentiation_1
         ('It handles a negative base with a negative exponent', -2, -3, -0.125),
     ]
 )
-class TestAddNumbers:
+class TestExponentiation:
     def test__exponentiation_1(self, description: str, base: int, exponent: int, expected: int) -> None:
         assert expected == exponentiation_1(base, exponent)
-
-    def test__exponentiation_2(self, description: str, base: int, exponent: int, expected: int) -> None:
-        assert expected == exponentiation_2(base, exponent)
