@@ -2,8 +2,8 @@ from algorithims.other.recursion.advanced.merge_sort import merge_sort
 from pytest import mark
 from typing import List, Callable, Optional
 
-class TestMergeSort:
 
+class TestMergeSort:
     @mark.parametrize(
         'description, nums, callback, expected',
         [
