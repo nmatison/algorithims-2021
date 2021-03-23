@@ -1,6 +1,6 @@
 from typing import List, Any
 
-# ("It handles an array with two values", [1, 2], [[], [1], [2], [1, 2]]),
+
 def subsets(elements: List[Any]) -> List[Any]:
     if not elements:
         return [[]]
