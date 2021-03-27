@@ -1,11 +1,12 @@
 from typing import List, Any, Optional
 
+
 class Vertex:
-    value: int
+    value: Any
     in_edges: List[Any]
     out_edges: List[Any]
 
-    def __init__(self, value: int) -> None:
+    def __init__(self, value: Any) -> None:
         self.value = value
         self.in_edges = []
         self.out_edges = []
